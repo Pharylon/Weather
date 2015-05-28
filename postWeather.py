@@ -21,4 +21,4 @@ def getReadings():
 
 data = getReadings()
 #print(data)
-requests.post('http://pharylonapi.azurewebsites.net/api/Weather', data)
+requests.post('http://pharylonapi.azurewebsites.net/api/weather/reading', data)
