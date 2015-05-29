@@ -15,5 +15,5 @@ forecasts = response['forecast']['simpleforecast']['forecastday']
 data = []
 for f in forecasts:
     data = getForecast(f)
-    requests.post('http://localhost:56027/api/weather/forecast', data)
+    requests.post('http://pharylonapi.azurewebsites.net/api/weather/forecast', data)
 

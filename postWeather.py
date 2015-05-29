@@ -14,7 +14,7 @@ def getReadings():
             data['temperatureBmp'] = bmp_temp
             data['temperatureDht'] = dht_temp
             data['humidity'] = humidity
-            data['preasure'] = pressure
+            data['pressure'] = pressure
             return data
     return None
 
